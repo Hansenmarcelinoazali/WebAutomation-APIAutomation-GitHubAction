@@ -4,18 +4,20 @@ import com.HNE.BaseTest;
 import com.HNE.Page.LoginPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class LoginPageStepDef extends BaseTest {
     private static final Logger log = LoggerFactory.getLogger(LoginPageStepDef.class);
+    //    private static final Logger log = LoggerFactory.getLogger(LoginPageStepDef.class);
     LoginPage loginPage;
 
     @Given("user is on login page")
     public void userIsOnLoginPage() {
 
-        loginPage = new LoginPage(driver);
+        this.loginPage = new LoginPage(driver);
         loginPage.GotoLoginPage();
 
     }
@@ -36,5 +38,10 @@ public class LoginPageStepDef extends BaseTest {
     @And("user click login button")
     public void userClickLoginButton() {
         loginPage.LoginButton();
+    }
+
+    @Then("user will get error {string}")
+    public void userWillGetError(String errormessage) {
+        loginPage.ErrorinvalidLogin(errormessage);
     }
 }

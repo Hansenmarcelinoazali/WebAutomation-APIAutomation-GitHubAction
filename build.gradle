@@ -47,7 +47,7 @@ task cucumber() {
             args = [
                     '--plugin', 'html:reports/index.html',
                     '--plugin', 'pretty',
-                    '--glue', 'com.HNE.StepDef',
+                    '--glue', 'com.HNE',
                     '--tags', "${tags}",
                     'src/test/resources'
             ]

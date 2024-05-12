@@ -10,9 +10,14 @@ public class HomePageStepDef extends BaseTest {
 
     @Then("user is on homepage and see product {string}")
     public void userIsOnHomepageAndSeeProduct(String productNameHomepage) {
-        homePage = new HomePage(driver);
+        this.homePage = new HomePage(driver);
+
         homePage.ValisasiHomePageDisplayed();
         homePage.GetDataOnHomePage(productNameHomepage);
+
+//        homePage.setNameProductOnHomePage(productNameHomepage);
+//        homePage.setDescrionProductOnHomePage(productNameHomepage);
+//        homePage.setPriceOnHomepage(productNameHomepage);
 
     }
 

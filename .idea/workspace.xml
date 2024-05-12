@@ -5,27 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06aa1f5d-a1a4-45ec-8933-175c578879a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/HNE/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/HNE/CucumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/HNE/Page/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/HNE/Page/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/CucumberHooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/HomePageStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/LoginPageStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/saucedemo.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/HNE/Page/AddtoCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/HNE/Page/OptionPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/AddtoCartStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/OptionStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/HNE/Page/ChartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/HNE/Page/ChartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/HNE/Page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/HNE/Page/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/HNE/Page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/HNE/Page/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/ChartStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/ChartStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/HomePageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/HomePageStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/LoginPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/LoginPageStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/saucedemo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/saucedemo.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +39,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2gJXZEy9kjDJVqeaVvL4yRvqogO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -61,12 +53,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Cucumber Java.Scenario: Input product to chart with value -1.executor": "Run",
+    "Cucumber Java.Scenario: Login with invalid username and password.executor": "Run",
     "Cucumber Java.Scenario: Login with valid username and password, insert one product to cart, klik option and logout.executor": "Run",
     "Gradle.Build Homework_module_14.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "testing",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/JayJay/Automate/Homework_module_14/src/test/java/com/HNE/StepDef",
     "project.structure.last.edited": "Project",
@@ -75,7 +69,52 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.HNE.Page" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Input product to chart with value -1">
+    <configuration name="Scenario: Input product to chart with value -1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/saucedemo.feature" />
+      <option name="GLUE" value="com.HNE.StepDef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Homework_module_14.test" />
+      <option name="NAME_FILTER" value="^Input product to chart with value \-1$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Input product to chart with value \-1$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Input product to chart with value -1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Login with invalid username and password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/saucedemo.feature" />
+      <option name="GLUE" value="com.HNE.StepDef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Homework_module_14.test" />
+      <option name="NAME_FILTER" value="^Login with invalid username and password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login with invalid username and password$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login with invalid username and password" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Login with valid username and password, insert one product to cart, klik option and logout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/saucedemo.feature" />
@@ -98,6 +137,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Input product to chart with value -1" />
+        <item itemvalue="Cucumber Java.Scenario: Login with invalid username and password" />
         <item itemvalue="Cucumber Java.Scenario: Login with valid username and password, insert one product to cart, klik option and logout" />
       </list>
     </recent_temporary>
