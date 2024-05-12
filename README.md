@@ -13,3 +13,14 @@ Tools:
 --> using POM for to separate each process
 --> StepDef for step definition every schenario
 --> Page for logic every schenario
+
+Case:
+Positif case -> Login with valid username and password, insert one product to cart, klik option and logout
+Website = https://www.saucedemo.com/
+
+Negatif Case ->  Login with invalid username and password
+Website = https://www.saucedemo.com/
+
+Boundaries Case -> Input product to chart with value -1
+Website = https://automationexercise.com/
+notes = boundaries case is failed because this website let you add product with quantity -1
