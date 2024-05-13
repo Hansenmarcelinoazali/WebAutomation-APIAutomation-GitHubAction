@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06aa1f5d-a1a4-45ec-8933-175c578879a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/HNE/Page/AddtoCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/HNE/Page/OptionPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/AddtoCartStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/OptionStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/HNE/Page/ChartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/HNE/Page/ChartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/HNE/Page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/HNE/Page/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/HNE/Page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/HNE/Page/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/ChartStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/ChartStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/HomePageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/HomePageStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/LoginPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/HNE/StepDef/LoginPageStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/saucedemo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/saucedemo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,25 +45,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Cucumber Java.Scenario: Input product to chart with value -1.executor": "Run",
-    "Cucumber Java.Scenario: Login with invalid username and password.executor": "Run",
-    "Cucumber Java.Scenario: Login with valid username and password, insert one product to cart, klik option and logout.executor": "Run",
-    "Gradle.Build Homework_module_14.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "testing",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/JayJay/Automate/Homework_module_14/src/test/java/com/HNE/StepDef",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Cucumber Java.Scenario: Input product to chart with value -1.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login with invalid username and password.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login with valid username and password, insert one product to cart, klik option and logout.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build Homework_module_14.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CucumberTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Homework_module_14 [cucumber].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;testing&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JayJay/Automate/Module_14_Selenium&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.HNE.Page" />
@@ -135,11 +132,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CucumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.HNE.CucumberTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Homework_module_14 [cucumber]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="cucumber" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Scenario: Input product to chart with value -1" />
         <item itemvalue="Cucumber Java.Scenario: Login with invalid username and password" />
+        <item itemvalue="Gradle.CucumberTest" />
         <item itemvalue="Cucumber Java.Scenario: Login with valid username and password, insert one product to cart, klik option and logout" />
+        <item itemvalue="Gradle.Homework_module_14 [cucumber]" />
       </list>
     </recent_temporary>
   </component>

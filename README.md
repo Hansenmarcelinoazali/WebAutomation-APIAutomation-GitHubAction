@@ -24,3 +24,10 @@ Website = https://www.saucedemo.com/
 Boundaries Case -> Input product to chart with value -1
 Website = https://automationexercise.com/
 notes = boundaries case is failed because this website let you add product with quantity -1
+
+
+Result =
+![img.png](img.png)
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
