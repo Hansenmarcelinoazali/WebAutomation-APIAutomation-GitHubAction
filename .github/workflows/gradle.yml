@@ -28,14 +28,10 @@ jobs:
 
       - name: Run Cucumber tests
         run: ./gradlew cucumber
-        
         continue-on-error: true
 
       - name: Run unit tests
         run: ./gradlew test
-
-      - name : run allure report
-        run : ./gradlew allureReport
 
       - name: Archive Cucumber test results
         if: always()
@@ -60,7 +56,7 @@ jobs:
         uses: actions/upload-artifact@v4.3.3
         with:
           name: API test
-          path: build/reports/allure-report/allureReport
+          path: build/reports
 
       - name: Add .nojekyll file to API Report directory
         run: echo "" > build/reports/.nojekyll
@@ -71,4 +67,4 @@ jobs:
         with:
           personal_token: ${{ secrets.GH_PAT }}
           publish_branch: test-reports
-          publish_dir: build/reports/allure-report/allureReport
+          publish_dir: build/reports
