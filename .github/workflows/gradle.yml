@@ -35,9 +35,14 @@ jobs:
     - name : running cucumber test
       run : ./gradlew cucumber
 
+    - name: Build with Maven
+      run: mvn clean install
+
       #running Api automation
     - name : running API
       run : ./gradlew clean test
+
+
 
 
     # Configure Gradle for optimal use in GiHub Actions, including caching of downloaded dependencies.
