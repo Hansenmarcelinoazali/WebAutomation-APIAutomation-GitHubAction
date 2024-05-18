@@ -69,7 +69,7 @@ jobs:
 
               # Add .nojekyll file to Allure Report directory
     - name: Add .nojekyll file
-      run: echo "" > build/reports/allure-report/allureReport/.nojekyll
+      run: echo "" > build/reports/allure-report/.nojekyll
 
         #Artefak APi test
     - name : deploy report to github pages api
