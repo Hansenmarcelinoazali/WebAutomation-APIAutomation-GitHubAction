@@ -43,7 +43,7 @@ jobs:
 
       #running Api automation
     - name : running API
-      run : ./gradlew clean test\
+      run : ./gradlew clean test
       
 
 
