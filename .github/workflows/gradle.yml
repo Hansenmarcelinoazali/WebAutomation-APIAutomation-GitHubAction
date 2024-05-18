@@ -41,6 +41,22 @@ jobs:
     - name: Run unit tests
       run: ./gradlew test
 
+#Archive test resul Web
+    - name : Archive test result Web Automation API
+      uses: actions/upload-artifact@v4.3.3
+      if : always()
+      with :
+        name : Cucumber Report Web
+        path : reports
+
+        #Deploy to github pages
+    - name : deploy report to github pages
+      if : always()
+      uses: peaceiris/actions-gh-pages@v4.0.0
+      with :
+        PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PUBLISH_BRANCH: test-reports
+        PUBLISH_DIR: reports
       
 
 
