@@ -2,15 +2,14 @@ package apiauto;
 
 import io.restassured.RestAssured;
 import io.restassured.module.jsv.JsonSchemaValidator;
-import org.testng.annotations.Test;
 import org.apache.commons.io.FileUtils;
-import static org.hamcrest.Matchers.anyOf;
-import static org.hamcrest.Matchers.equalTo;
-import java.io.File;
-
+import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.IOException;
+
+import static org.hamcrest.Matchers.anyOf;
+import static org.hamcrest.Matchers.equalTo;
 
 public class apiTest {
 
@@ -42,7 +41,7 @@ public class apiTest {
             .when()
             .post("https://jsonplaceholder.org/users").then().log().all()
             .assertThat().body(JsonSchemaValidator.matchesJsonSchema(jsonSchemaNewEmployee))
-            .assertThat().statusCode(anyOf(equalTo(400),equalTo(401)));
+            .assertThat().statusCode(anyOf(equalTo(201)));
 }
 
 @Test

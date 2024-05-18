@@ -1,5 +1,6 @@
 How to run?
 
+###Web Automation testing
 1. ./gradlew test |or| ./gradlew clean test --info |or| ./gradlew cucumber -> generate report
 2. ./gradlew cucumber -Ptags="" -> base on tags cucumber 
 
@@ -26,8 +27,13 @@ Website = https://automationexercise.com/
 notes = boundaries case is failed because this website let you add product with quantity -1
 
 
-Result =
-![img.png](img.png)
-![img_1.png](img_1.png)
 
-![img_2.png](img_2.png)
+###Running API Manually =
+1. "./gradlew clean test" -> to build
+2. "allure serve build/allure-results" -> test result with allure report
+
+Api test using TestNG
+Case = 
+1. Get all employees -> pass
+2. Post new employee -> pass
+3.  Boundaries test -> failed because the email field is too long. expected http response 400 or 401

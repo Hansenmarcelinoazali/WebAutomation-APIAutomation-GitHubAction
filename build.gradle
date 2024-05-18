@@ -1,9 +1,12 @@
 plugins {
     id 'java'
+    id("io.qameta.allure") version "2.11.0"
 }
 
 group = 'org.example'
 version = '1.0-SNAPSHOT'
+
+
 
 repositories {
     mavenCentral()
@@ -22,12 +25,27 @@ dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 
+    testImplementation 'org.testng:testng:7.10.1'
+    testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '5.4.0'
+    implementation group: 'org.json', name: 'json', version: '20240303'
+    implementation group: 'io.rest-assured', name: 'json-schema-validator', version: '5.4.0'
+    implementation 'commons-io:commons-io:2.11.0'
+    testImplementation 'org.hamcrest:hamcrest:2.2'
 
 }
 
 //test {
 //    useJUnitPlatform()
 //}
+
+test {
+    useTestNG {
+        suites"src/test/resources/running.xml"}
+    testLogging {
+        events("PASSED", "FAILED", "SKIPPED")
+    }
+    useTestNG()
+}
 
 configurations {
     cucumberRuntime {

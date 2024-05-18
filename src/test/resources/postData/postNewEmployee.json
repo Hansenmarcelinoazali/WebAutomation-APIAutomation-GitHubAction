@@ -3,7 +3,7 @@
     "id": 1,
     "firstname": "John",
     "lastname": "Doe",
-    "email": 123123123,
+    "email": "123123123",
     "birthDate": "1973-01-22",
     "login": {
       "uuid": "1a0eed01-9430-4d68-901f-c0d4c1c3bf22",
@@ -17,7 +17,7 @@
       "street": "123 Main Street",
       "suite": "Apt. 4",
       "city": "Anytown",
-      "zipcode": 123456789,
+      "zipcode": "123456789",
       "geo": {
         "lat": "42.1234",
         "lng": "-71.2345"
