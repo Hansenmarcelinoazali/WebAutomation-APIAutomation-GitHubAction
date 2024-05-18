@@ -64,7 +64,7 @@ jobs:
       with :
         personal_token: ${{ secrets.GH_PAT }}
         publish_branch:: test-reports
-        publish_dir: build/reports/tests/test/index.htm
+        publish_dir: build/reports/tests/test
       
 
 
