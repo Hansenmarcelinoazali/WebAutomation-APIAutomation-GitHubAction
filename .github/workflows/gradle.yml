@@ -35,12 +35,16 @@ jobs:
     - name : running cucumber test
       run : ./gradlew cucumber
 
+    - name: Run unit tests
+      run: mvn test
+
     - name: Build with Maven
       run: mvn clean install
 
       #running Api automation
     - name : running API
-      run : ./gradlew clean test
+      run : ./gradlew clean test\
+      
 
 
 
