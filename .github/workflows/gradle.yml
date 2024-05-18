@@ -57,15 +57,24 @@ jobs:
         personal_token: ${{ secrets.GH_PAT }}
         publish_branch:: test-reports
         publish_dir: reports
-        
+
+
+        #Archive test resul Web
+    - name : Archive test result Web Automation API
+      uses: actions/upload-artifact@v4.3.3
+      if : always()
+      with :
+        name : API test
+        path : build\reports\allure-report\allureReport
+
+        #Artefak APi test
     - name : deploy report to github pages api
       if : always()
       uses: peaceiris/actions-gh-pages@v4.0.0
       with :
         personal_token: ${{ secrets.GH_PAT }}
         publish_branch:: test-reports
-        publish_dir: build/reports/tests/test
-      
+        publish_dir: build\reports\allure-report\allureReport
 
 
 
