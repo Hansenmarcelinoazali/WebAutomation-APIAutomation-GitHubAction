@@ -51,7 +51,8 @@ jobs:
 
         
     - name: Add .nojekyll file
-      run: echo "" > build/reports/tests/test/.nojekyll
+      run: echo "" > reports/.nojekyll
+      
         #Deploy to github pages
     - name : deploy report to github pages
       if : always()
