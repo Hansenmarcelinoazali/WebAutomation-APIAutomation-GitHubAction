@@ -49,6 +49,9 @@ jobs:
         name : Cucumber Report Web
         path : reports
 
+        
+    - name: Add .nojekyll file
+      run: echo "" > build/reports/tests/test/.nojekyll
         #Deploy to github pages
     - name : deploy report to github pages
       if : always()
