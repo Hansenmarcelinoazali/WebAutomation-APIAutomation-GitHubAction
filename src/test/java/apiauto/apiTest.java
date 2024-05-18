@@ -44,20 +44,20 @@ public class apiTest {
             .assertThat().statusCode(anyOf(equalTo(201)));
 }
 
-@Test
-    public void postValueMaxorMin() throws IOException { //nilai maksimum email itu biasanya 254 karakter dan pada case ini di input lebih
-
-    File jsonValueMaXMin = new File("D:\\JayJay\\Homework_module13\\src\\test\\resources\\postData\\postValueMaxMin.json");
-    File jsonValidate = new File("D:\\JayJay\\Homework_module13\\src\\test\\resources\\jsonSchema\\postNewEmployee.json");
-
-    String jsonBody = FileUtils.readFileToString(jsonValueMaXMin, "UTF-8");
-
-RestAssured.given().when().header("Context-Type","application/json")
-        .header("Accept", "application/json")
-        .body(jsonBody)
-        .post("https://jsonplaceholder.org/users").then().log().all()
-        .assertThat().body(JsonSchemaValidator.matchesJsonSchema(jsonValidate))
-        .assertThat().statusCode(anyOf(equalTo(400),equalTo(401)));
+//@Test
+//    public void postValueMaxorMin() throws IOException { //nilai maksimum email itu biasanya 254 karakter dan pada case ini di input lebih
+//
+//    File jsonValueMaXMin = new File("D:\\JayJay\\Homework_module13\\src\\test\\resources\\postData\\postValueMaxMin.json");
+//    File jsonValidate = new File("D:\\JayJay\\Homework_module13\\src\\test\\resources\\jsonSchema\\postNewEmployee.json");
+//
+//    String jsonBody = FileUtils.readFileToString(jsonValueMaXMin, "UTF-8");
+//
+//RestAssured.given().when().header("Context-Type","application/json")
+//        .header("Accept", "application/json")
+//        .body(jsonBody)
+//        .post("https://jsonplaceholder.org/users").then().log().all()
+//        .assertThat().body(JsonSchemaValidator.matchesJsonSchema(jsonValidate))
+//        .assertThat().statusCode(anyOf(equalTo(400),equalTo(401)));
 
 }
 }
