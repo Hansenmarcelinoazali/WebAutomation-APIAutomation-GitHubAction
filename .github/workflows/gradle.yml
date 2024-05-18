@@ -35,8 +35,9 @@ jobs:
     - name : running cucumber test
       run : ./gradlew cucumber
 
+      # running unit test
     - name: Run unit tests
-      run: mvn test
+      run: ./gradlew test
 
     - name: Build with Maven
       run: mvn clean install
