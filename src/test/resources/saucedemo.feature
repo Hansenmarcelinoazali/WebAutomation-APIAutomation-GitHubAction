@@ -26,10 +26,10 @@ Feature:Login
       Then user will get error "Epic sadface: Username and password do not match any user in this service"
 
 
-#      @Boundaries-Test
-#      Scenario: Input product to chart with value -1
-#        Given user is on home page automation exercise
-#        And the user clicks view product on the first product
-#        And user click quantity and input "-1"
-#        And user click button add to cart
-#        Then user cannot add to cart
+      @Boundaries-Test
+      Scenario: Input product to chart with value -1
+        Given user is on home page automation exercise
+        And the user clicks view product on the first product
+        And user click quantity and input "-1"
+        And user click button add to cart
+        Then user cannot add to cart
