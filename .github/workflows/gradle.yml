@@ -60,7 +60,7 @@ jobs:
         uses: actions/upload-artifact@v4.3.3
         with:
           name: API test
-          path: build\reports\allure-report
+          path: build/reports/allure-report/allureReport
 
       - name: Add .nojekyll file to API Report directory
         run: echo "" > build/reports/.nojekyll
@@ -71,4 +71,4 @@ jobs:
         with:
           personal_token: ${{ secrets.GH_PAT }}
           publish_branch: test-reports
-          publish_dir: build\reports\allure-report
+          publish_dir: build/reports/allure-report/allureReport
