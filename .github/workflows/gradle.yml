@@ -65,11 +65,11 @@ jobs:
       if : always()
       with :
         name : API test
-        path : build\reports\allure-report
+        path : build\reports\tests\test
 
               # Add .nojekyll file to Allure Report directory
     - name: Add .nojekyll file
-      run: echo "" > build/reports/allure-report/.nojekyll
+      run: echo "" > build\reports\tests\test.nojekyll
 
         #Artefak APi test
     - name : deploy report to github pages api
@@ -78,7 +78,7 @@ jobs:
       with :
         personal_token: ${{ secrets.GH_PAT }}
         publish_branch:: test-reports
-        publish_dir: build\reports\allure-report
+        publish_dir: build\reports\tests\test
 
 
 
